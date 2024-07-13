@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.animation{
+    animation: pop .4s linear;
+}
+@keyframes pop {
+    from{
+        transform: scale(.3);
+    }
+    to{
+        transform: scale(1);
+    }
+}
